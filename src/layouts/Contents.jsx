@@ -1,7 +1,6 @@
 import React from 'react'
 import { Box} from "@chakra-ui/react"
 import Homepage from '../components/Homepage'
-
 export default function Contents({children}) {
     return (
         <>
