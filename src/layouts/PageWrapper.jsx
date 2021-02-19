@@ -10,7 +10,7 @@ export default function PageWrapper({children}) {
         <>
     <Header />
         <Box w='100%' pt={["0.5em", "1em"]} paddingBottom={["0.5em", "1em"]}>
-        <Contents>{children}</Contents>
+        {children}
     </Box>
     </>
     )
