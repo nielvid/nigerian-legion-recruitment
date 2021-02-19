@@ -36,9 +36,11 @@ function hide(e) {
 }
     return (
          <Box w="100%" bg="#000000" color="#ffffff" pt="1.5em" pl={[ "1em", "2em","3em","4.5em"]} pr={[ "1em", "2em","3em","4.5em"]}>
-    {active ?<Link href="/" d="block" >
+    {active ?
             <Flex d={{md:"flex"}} justifyContent="space-between"  p="1.5em">
+            <Link href="/" d="block" >
                 <Image  src={Menu} alt="menu-icon" width={["8%", "6%", "4%", "2%"]} onClick={toggle1} />
+                </Link>
                  <Flex >
             <Link  fontSize={["0.5em", ".8em", "1.2em"]} mr={[ ".6em", "1em","1.5em","2em"]} href="/" >Home</Link> 
             <Link  fontSize={["0.5em", ".8em", "1.2em"]}  mr={[ ".6em", "1em","1.5em","2em"]} href="/" >About us</Link>
@@ -51,7 +53,7 @@ function hide(e) {
             
                
             </Flex>
-        </Link> :  <> <Link href="/" d="bock" id="btn"  >
+       :  <> <Link href="/" d="bock" id="btn"  >
             <Box d={{md:"flex"}}>
                 <Image  src={Cancel} alt="menu-icon" width={["8%", "6%", "4%", "2%"]} onClick={toggle2} />
                   

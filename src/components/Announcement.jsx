@@ -18,23 +18,25 @@ export default function Announcement() {
         </Text>
 <Heading color="#FF0000" fontSize={[".6em", "1m", "1.6em", "2em"]} m="10px 0"> How to Apply</Heading>
         <Text textAlign="justify" fontSize={["0.6em", "1.2em"]}>
-          <ul>
+         
+        </Text>
+         <ul>
               <li>Click on Start Applicantion</li>
               <li>You need username and password to create account before accessing the portal</li>
               <li>Complete the application form, submit online and print copy. </li>
               <li>Also print the guarantor form and give to your Guarantor to fill.</li>
               <li>Bring the application and guarantor form to the State Command Headquarters for the training documentation.</li>
           </ul>
-        </Text>
         <Heading color="#FF0000" fontSize={[".6em", "1m", "1.6em", "2em"]} m="25px 0"> Requirements</Heading>
         <Text textAlign="justify" fontSize={["0.6em", "1.2em"]}>
-          <ul>
+          
+        </Text>
+        <ul>
               <li>Applicants must be Nigerian citizens by birth</li>
               <li>Applicants must be medically, physically and psychologically fit</li>
               <li>Applicants must not have any record of criminal conviction by the court of law </li>
               <li>Applicants must not be less dan 18 years </li>
           </ul>
-        </Text>
         </Box>
         </Box>
 
