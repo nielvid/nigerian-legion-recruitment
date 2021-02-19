@@ -1,8 +1,6 @@
 import React from 'react'
 import { Box} from "@chakra-ui/react"
 import Homepage from '../components/Homepage'
-import Announcement from '../components/Announcement'
-import Buttons from '../common/Buttons'
 
 export default function Contents({children}) {
     return (
